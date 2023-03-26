@@ -22,6 +22,7 @@
     <None Remove="Views\Shared\Components\_Feature\" />
     <None Remove="Views\Shared\Components\_SubAbout\" />
     <None Remove="Views\Shared\Components\_Testimonial\" />
+    <None Remove="Views\Destination\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
@@ -65,11 +66,14 @@
     <Folder Include="wwwroot\assets\fonts\" />
     <Folder Include="wwwroot\assets\images\" />
     <Folder Include="wwwroot\assets\js\" />
+    <Folder Include="wwwroot\Traversal-Liberty\" />
+    <Folder Include="Views\Destination\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\css\" />
     <Content Remove="wwwroot\assets\fonts\" />
     <Content Remove="wwwroot\assets\images\" />
     <Content Remove="wwwroot\assets\js\" />
+    <Content Remove="wwwroot\Traversal-Liberty\" />
   </ItemGroup>
 </Project>
