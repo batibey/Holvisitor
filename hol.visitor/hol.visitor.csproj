@@ -13,6 +13,15 @@
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Views\Default\" />
     <None Remove="Views\LayoutPartial\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="ViewComponents\Default\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\_SliderPartial\" />
+    <None Remove="Views\Shared\Components\_PopularDestinations\" />
+    <None Remove="Views\Shared\Components\_Statistics\" />
+    <None Remove="Views\Shared\Components\_Feature\" />
+    <None Remove="Views\Shared\Components\_SubAbout\" />
+    <None Remove="Views\Shared\Components\_Testimonial\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
@@ -43,5 +52,24 @@
   <ItemGroup>
     <Folder Include="Views\Default\" />
     <Folder Include="Views\LayoutPartial\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="ViewComponents\Default\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\_SliderPartial\" />
+    <Folder Include="Views\Shared\Components\_PopularDestinations\" />
+    <Folder Include="Views\Shared\Components\_Statistics\" />
+    <Folder Include="Views\Shared\Components\_Feature\" />
+    <Folder Include="Views\Shared\Components\_SubAbout\" />
+    <Folder Include="Views\Shared\Components\_Testimonial\" />
+    <Folder Include="wwwroot\assets\css\" />
+    <Folder Include="wwwroot\assets\fonts\" />
+    <Folder Include="wwwroot\assets\images\" />
+    <Folder Include="wwwroot\assets\js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\assets\css\" />
+    <Content Remove="wwwroot\assets\fonts\" />
+    <Content Remove="wwwroot\assets\images\" />
+    <Content Remove="wwwroot\assets\js\" />
   </ItemGroup>
 </Project>
