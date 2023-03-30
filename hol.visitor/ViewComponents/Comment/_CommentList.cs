@@ -1,13 +1,18 @@
 ﻿using System;
+using BusinessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
 
 namespace hol.visitor.ViewComponents.Comment
 {
 	public class _CommentList : ViewComponent
 	{
-		public IViewComponentResult Invoke()
+
+		CommentManager commentManager = new CommentManager(new EfCommentDAL());
+		public IViewComponentResult Invoke(int id)
 		{
-			return View();
+			var values = commentManager.TGetDestinationByID(id);
+			return View(values);
 		}
 	}
 }
