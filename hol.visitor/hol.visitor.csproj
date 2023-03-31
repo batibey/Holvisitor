@@ -25,7 +25,7 @@
     <None Remove="Views\Destination\" />
     <None Remove="ViewComponents\Comment\" />
     <None Remove="Views\Shared\Components\_CommentList\" />
-    <None Remove="Views\Shared\Components\_AddComment\" />
+    <None Remove="Views\Comment\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
@@ -73,7 +73,7 @@
     <Folder Include="Views\Destination\" />
     <Folder Include="ViewComponents\Comment\" />
     <Folder Include="Views\Shared\Components\_CommentList\" />
-    <Folder Include="Views\Shared\Components\_AddComment\" />
+    <Folder Include="Views\Comment\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\css\" />
