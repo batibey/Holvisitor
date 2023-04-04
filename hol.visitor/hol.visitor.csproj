@@ -26,6 +26,7 @@
     <None Remove="ViewComponents\Comment\" />
     <None Remove="Views\Shared\Components\_CommentList\" />
     <None Remove="Views\Comment\" />
+    <None Remove="Views\SignUp\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
@@ -76,6 +77,7 @@
     <Folder Include="ViewComponents\Comment\" />
     <Folder Include="Views\Shared\Components\_CommentList\" />
     <Folder Include="Views\Comment\" />
+    <Folder Include="Views\SignUp\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\css\" />
