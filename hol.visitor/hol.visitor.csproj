@@ -64,6 +64,9 @@
     <Folder Include="Views\Comment\" />
     <Folder Include="Views\Login\" />
     <Folder Include="Views\Shared\" />
+    <Folder Include="wwwroot\web\" />
+    <Folder Include="wwwroot\web\css\" />
+    <Folder Include="wwwroot\web\images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\css\" />
@@ -71,5 +74,8 @@
     <Content Remove="wwwroot\assets\images\" />
     <Content Remove="wwwroot\assets\js\" />
     <Content Remove="wwwroot\Traversal-Liberty\" />
+    <Content Remove="wwwroot\web\" />
+    <Content Remove="wwwroot\web\css\" />
+    <Content Remove="wwwroot\web\images\" />
   </ItemGroup>
 </Project>
