@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dZZTBBr4V/ti+srRGXsMmAr0BuTsPmI9QyCH9BNiN64=",
+  "Hash": "vJQqrpdwS2tmve9uoGUjr8g0rzWi15cCAuRPu5OW3+E=",
   "Source": "hol.visitor",
   "BasePath": "_content/hol.visitor",
   "Mode": "Default",
@@ -5081,6 +5081,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Traversal-Starter/starter-license-W3Layouts.txt"
+    },
+    {
+      "Identity": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/web/css/style.css",
+      "SourceId": "hol.visitor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/",
+      "BasePath": "_content/hol.visitor",
+      "RelativePath": "web/css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/web/css/style.css"
+    },
+    {
+      "Identity": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/web/images/banner1.jpg",
+      "SourceId": "hol.visitor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/",
+      "BasePath": "_content/hol.visitor",
+      "RelativePath": "web/images/banner1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/web/images/banner1.jpg"
+    },
+    {
+      "Identity": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/web/index.html",
+      "SourceId": "hol.visitor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/",
+      "BasePath": "_content/hol.visitor",
+      "RelativePath": "web/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/web/index.html"
     }
   ]
 }

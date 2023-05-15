@@ -1189,6 +1189,18 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
+      "Id": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/web/css/style.css",
+      "PackagePath": "staticwebassets/web/css/style.css"
+    },
+    {
+      "Id": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/web/images/banner1.jpg",
+      "PackagePath": "staticwebassets/web/images/banner1.jpg"
+    },
+    {
+      "Id": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/web/index.html",
+      "PackagePath": "staticwebassets/web/index.html"
+    },
+    {
       "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.hol.visitor.props",
       "PackagePath": "build\\hol.visitor.props"
     },
