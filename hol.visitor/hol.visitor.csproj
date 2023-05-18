@@ -26,6 +26,7 @@
     <None Remove="Areas\Member\Models\" />
     <None Remove="Areas\Member\Views\" />
     <None Remove="Views\MemberLayoutPartial\" />
+    <None Remove="Areas\Member\Views\Destination\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
@@ -80,6 +81,7 @@
     <Folder Include="Areas\Member\Models\" />
     <Folder Include="Areas\Member\Views\" />
     <Folder Include="Views\MemberLayoutPartial\" />
+    <Folder Include="Areas\Member\Views\Destination\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\css\" />
