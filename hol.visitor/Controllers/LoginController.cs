@@ -13,11 +13,12 @@ namespace hol.visitor.Controllers
     [AllowAnonymous]
     public class LoginController : Controller
     {
-
+        private readonly SignInManager<AppUser> _signInManager;
         private readonly UserManager<AppUser> _userManager;
 
-        public LoginController(UserManager<AppUser> userManager)
+        public LoginController(SignInManager<AppUser> signInManager, UserManager<AppUser> userManager)
         {
+            _signInManager = signInManager;
             _userManager = userManager;
         }
 
@@ -60,6 +61,24 @@ namespace hol.visitor.Controllers
         [HttpGet]
         public IActionResult SignIn()
         {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SignIn(UserSignInViewModel p)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _signInManager.PasswordSignInAsync(p.username, p.password, false, true);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index", "Destination");
+                }
+                else
+                {
+                    return RedirectToAction("SignIn", "Login");
+                }
+            }
             return View();
         }
     }
