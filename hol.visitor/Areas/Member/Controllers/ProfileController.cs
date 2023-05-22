@@ -6,9 +6,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using TraversalCoreProje.Areas.Member.Models;
+using hol.visitor.Areas.Member.Models;
 
-namespace TraversalCoreProje.Areas.Member.Controllers
+namespace hol.visitor.Areas.Member.Controllers
 {
     [Area("Member")]
     [Route("Member/[controller]/[action]")]
@@ -24,7 +24,7 @@ namespace TraversalCoreProje.Areas.Member.Controllers
         [HttpGet]
         public async Task <IActionResult> Index()
         {
-            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            var values = await _userManager.FindByNameAsync(User.Identity?.Name);
             UserEditViewModel userEditViewModel = new UserEditViewModel();
             userEditViewModel.name = values.Name;
             userEditViewModel.surname = values.Surname;
@@ -36,7 +36,7 @@ namespace TraversalCoreProje.Areas.Member.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(UserEditViewModel p)
         {
-            var user = await _userManager.FindByNameAsync(User.Identity.Name);
+            var user = await _userManager.FindByNameAsync(User.Identity?.Name);
             if (p.Image != null)
             {
                 var resource = Directory.GetCurrentDirectory();

@@ -1,8 +1,8 @@
-﻿@model TraversalCoreProje.Areas.Member.Models.UserEditViewModel
+﻿@model hol.visitor.Areas.Member.Models.UserEditViewModel
 
 @{
     ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
 
 
@@ -10,7 +10,7 @@
     <div class="col-12">
         <div class="card">
             <div class="card-header">
-                <h4 class="card-title">Profil Güncelleme Sayfası</h4>
+                <h4 class="card-title">Profile Update Page</h4>
                 <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
                 <div class="heading-elements">
                     <ul class="list-inline mb-0">
@@ -23,32 +23,32 @@
             </div>
             <div class="card-content collapse show">
                 <div class="card-body">
-                    <p class="card-text">Profil ile ilgili bilgilerinizi bu sayfadan güncelleyebilirsiniz</p>
+                    <p class="card-text">You can update your profile information on this page.</p>
                     <form method="post" enctype="multipart/form-data">
-                        @Html.Label("Adınız")
+                        @Html.Label("Name")
                         <input type="text" asp-for="name" class="form-control" />
                         <br />
-                        @Html.Label("Soyadınız")
+                        @Html.Label("Surname")
                         <input type="text" asp-for="surname" class="form-control" />
                         <br />
-                        @Html.Label("Mail Adresiniz")
+                        @Html.Label("Mail")
                         <input type="text" asp-for="mail" class="form-control" />
                         <br />
-                        @Html.Label("Şifreniz")
+                        @Html.Label("Password")
                         <input type="text" asp-for="password" class="form-control" />
                         <br />
-                        @Html.Label("Şifre Tekrar")
+                        @Html.Label("Confirm Password")
                         <input type="text" asp-for="confirmpassword" class="form-control" />
                         <br />
-                        @Html.Label("Telefon Numarası")
+                        @Html.Label("Phone Number")
                         <input type="text" asp-for="phonenumber" class="form-control" />
                         <br />
                         <div class="form-group">
-                            <label>Resim Seçin</label>
+                            <label>Choose Image</label>
                             <input type="file" asp-for="Image" />
                         </div>
                         <br />
-                        <button class="btn btn-primary">Bilgileri Güncelle</button>
+                        <button class="btn btn-primary">Update</button>
                     </form>
                 </div>
             </div>
