@@ -82,6 +82,7 @@
     <Folder Include="Areas\Member\Views\" />
     <Folder Include="Views\MemberLayoutPartial\" />
     <Folder Include="Areas\Member\Views\Destination\" />
+    <Folder Include="wwwroot\userimages\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\css\" />
@@ -93,5 +94,6 @@
     <Content Remove="wwwroot\web\css\" />
     <Content Remove="wwwroot\web\images\" />
     <Content Remove="wwwroot\soft-ui-dashboard\" />
+    <Content Remove="wwwroot\userimages\" />
   </ItemGroup>
 </Project>
