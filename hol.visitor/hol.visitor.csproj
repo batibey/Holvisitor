@@ -27,6 +27,7 @@
     <None Remove="Areas\Member\Views\" />
     <None Remove="Views\MemberLayoutPartial\" />
     <None Remove="Areas\Member\Views\Destination\" />
+    <None Remove="Areas\Member\Views\Reservation\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
@@ -83,6 +84,7 @@
     <Folder Include="Views\MemberLayoutPartial\" />
     <Folder Include="Areas\Member\Views\Destination\" />
     <Folder Include="wwwroot\userimages\" />
+    <Folder Include="Areas\Member\Views\Reservation\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\css\" />
