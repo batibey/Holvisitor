@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL1Byb2ZpbGUvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/mustafabati/Projects/hol.visitor/hol.visitor/Areas/Member/Views/Reservation/NewReservation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL1Jlc2VydmF0aW9uL05ld1Jlc2VydmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/mustafabati/Projects/hol.visitor/hol.visitor/Areas/Member/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWVtYmVyL1ZpZXdzL19WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
