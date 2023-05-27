@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZQqRSjeKzxiDHfXBi/dSunNv8OAXt+B9LCJZty54Yy0=",
+  "Hash": "zTlcmXtK3b5/rjCeeOUMSuoeuzE0c7ifU36atm95oFo=",
   "Source": "hol.visitor",
   "BasePath": "_content/hol.visitor",
   "Mode": "Default",
@@ -9858,6 +9858,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Traversal-Starter/starter-license-W3Layouts.txt"
+    },
+    {
+      "Identity": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/userimages/7b7a7f4d-04de-4e32-8bba-a4fc84dbd321.jpeg",
+      "SourceId": "hol.visitor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/",
+      "BasePath": "_content/hol.visitor",
+      "RelativePath": "userimages/7b7a7f4d-04de-4e32-8bba-a4fc84dbd321.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/userimages/7b7a7f4d-04de-4e32-8bba-a4fc84dbd321.jpeg"
+    },
+    {
+      "Identity": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/userimages/dd0323cf-b252-40f0-ad76-35fbcd53bd13.jpeg",
+      "SourceId": "hol.visitor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/",
+      "BasePath": "_content/hol.visitor",
+      "RelativePath": "userimages/dd0323cf-b252-40f0-ad76-35fbcd53bd13.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/userimages/dd0323cf-b252-40f0-ad76-35fbcd53bd13.jpeg"
     },
     {
       "Identity": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/web/css/style.css",

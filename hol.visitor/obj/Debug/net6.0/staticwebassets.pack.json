@@ -2313,6 +2313,14 @@
       "PackagePath": "staticwebassets/soft-ui-dashboard/pages/virtual-reality.html"
     },
     {
+      "Id": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/userimages/7b7a7f4d-04de-4e32-8bba-a4fc84dbd321.jpeg",
+      "PackagePath": "staticwebassets/userimages/7b7a7f4d-04de-4e32-8bba-a4fc84dbd321.jpeg"
+    },
+    {
+      "Id": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/userimages/dd0323cf-b252-40f0-ad76-35fbcd53bd13.jpeg",
+      "PackagePath": "staticwebassets/userimages/dd0323cf-b252-40f0-ad76-35fbcd53bd13.jpeg"
+    },
+    {
       "Id": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/wwwroot/web/css/style.css",
       "PackagePath": "staticwebassets/web/css/style.css"
     },
