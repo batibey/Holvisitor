@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -16,6 +17,13 @@ namespace hol.visitor.Areas.Member.Controllers
         DestinationManager destinationManager = new DestinationManager(new EfDestinationDAL());
         ReservationManager reservationManager = new ReservationManager(new EfReservationDAL());
 
+        private readonly UserManager<AppUser> _userManager;
+
+        public ReservationController(UserManager<AppUser> userManager)
+        {
+            _userManager = userManager;
+        }
+
         public IActionResult MyCurrentReservation()
         {
             return View();
@@ -24,6 +32,13 @@ namespace hol.visitor.Areas.Member.Controllers
         public IActionResult MyOldReservation()
         {
             return View();
+        }
+
+        public async Task<IActionResult> MyApprovalReservation()
+        {
+            var values = await _userManager.FindByNameAsync(User.Identity?.Name);
+            var valuesList = reservationManager.GetListApprovalReservation(values.Id);
+            return View(valuesList);
         }
 
         [HttpGet]
