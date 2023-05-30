@@ -24,14 +24,18 @@ namespace hol.visitor.Areas.Member.Controllers
             _userManager = userManager;
         }
 
-        public IActionResult MyCurrentReservation()
+        public async Task<IActionResult> MyCurrentReservation()
         {
-            return View();
+            var values = await _userManager.FindByNameAsync(User.Identity?.Name);
+            var valuesList = reservationManager.GetListWithReservationByAccepted(values.Id);
+            return View(valuesList);
         }
 
-        public IActionResult MyOldReservation()
+        public async Task<IActionResult> MyOldReservation()
         {
-            return View();
+            var values = await _userManager.FindByNameAsync(User.Identity?.Name);
+            var valuesList = reservationManager.GetListWithReservationByPrevious(values.Id);
+            return View(valuesList);
         }
 
         public async Task<IActionResult> MyApprovalReservation()
