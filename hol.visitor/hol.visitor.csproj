@@ -28,6 +28,11 @@
     <None Remove="Views\MemberLayoutPartial\" />
     <None Remove="Areas\Member\Views\Destination\" />
     <None Remove="Areas\Member\Views\Reservation\" />
+    <None Remove="Areas\Member\Views\Dashboard\" />
+    <None Remove="ViewComponents\MemberDashboard\" />
+    <None Remove="Views\Shared\Components\_ProfileInformation\" />
+    <None Remove="Views\Shared\Components\_GuideList\" />
+    <None Remove="Views\Shared\Components\_PlatformSetting\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
@@ -85,6 +90,11 @@
     <Folder Include="Areas\Member\Views\Destination\" />
     <Folder Include="wwwroot\userimages\" />
     <Folder Include="Areas\Member\Views\Reservation\" />
+    <Folder Include="Areas\Member\Views\Dashboard\" />
+    <Folder Include="ViewComponents\MemberDashboard\" />
+    <Folder Include="Views\Shared\Components\_ProfileInformation\" />
+    <Folder Include="Views\Shared\Components\_GuideList\" />
+    <Folder Include="Views\Shared\Components\_PlatformSetting\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\css\" />
