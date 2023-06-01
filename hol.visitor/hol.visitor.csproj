@@ -95,7 +95,6 @@
     <Folder Include="Views\Shared\Components\_ProfileInformation\" />
     <Folder Include="Views\Shared\Components\_GuideList\" />
     <Folder Include="Views\Shared\Components\_PlatformSetting\" />
-    <Folder Include="wwwroot\sneat-1.0.0\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\css\" />
@@ -108,11 +107,5 @@
     <Content Remove="wwwroot\web\images\" />
     <Content Remove="wwwroot\soft-ui-dashboard\" />
     <Content Remove="wwwroot\userimages\" />
-    <Content Remove="wwwroot\sneat-1.0.0\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="wwwroot\sneat-1.0.0\.github\workflows\issue-staler.yml" />
-    <None Include="wwwroot\sneat-1.0.0\.github\workflows\handle-new-issue-comment.yml" />
-    <None Include="wwwroot\sneat-1.0.0\.github\workflows\handle-new-issue.yml" />
   </ItemGroup>
 </Project>
