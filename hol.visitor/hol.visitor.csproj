@@ -67,10 +67,6 @@
     <Folder Include="Views\LayoutPartial\" />
     <Folder Include="ViewComponents\" />
     <Folder Include="ViewComponents\Default\" />
-    <Folder Include="wwwroot\assets\css\" />
-    <Folder Include="wwwroot\assets\fonts\" />
-    <Folder Include="wwwroot\assets\images\" />
-    <Folder Include="wwwroot\assets\js\" />
     <Folder Include="wwwroot\Traversal-Liberty\" />
     <Folder Include="Views\Destination\" />
     <Folder Include="ViewComponents\Comment\" />
@@ -97,10 +93,6 @@
     <Folder Include="Views\Shared\Components\_PlatformSetting\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Remove="wwwroot\assets\css\" />
-    <Content Remove="wwwroot\assets\fonts\" />
-    <Content Remove="wwwroot\assets\images\" />
-    <Content Remove="wwwroot\assets\js\" />
     <Content Remove="wwwroot\Traversal-Liberty\" />
     <Content Remove="wwwroot\web\" />
     <Content Remove="wwwroot\web\css\" />
