@@ -40,14 +40,14 @@ namespace hol.visitor.Areas.Admin.Controllers
         }
         public IActionResult DeleteDestination(int id)
         {
-            var values = _destinationService.TGetByID(id);
+            var values = _destinationService.TGetById(id);
             _destinationService.TDelete(values);
             return RedirectToAction("Index");
         }
         [HttpGet]
         public IActionResult UpdateDestination(int id)
         {
-            var values = _destinationService.TGetByID(id);
+            var values = _destinationService.TGetById(id);
             return View(values);
         }
         [HttpPost]
