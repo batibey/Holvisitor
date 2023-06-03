@@ -1,6 +1,7 @@
 ﻿using System;
 using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
+using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 
 namespace BusinessLayer.Concrete
@@ -41,6 +42,21 @@ namespace BusinessLayer.Concrete
         }
 
         public void TUpdate(Comment t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Comment> TGetListCommentWithDestination()
+        {
+            return _commentDAL.GetListCommentWithDestination();
+        }
+
+        public List<Comment> TGetListCommentWithDestinationAndUser(int id)
+        {
+            return _commentDAL.GetListCommentWithDestinationAndUser(id);
+        }
+
+        public List<Comment> TGetDestinationById(int id)
         {
             throw new NotImplementedException();
         }

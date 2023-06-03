@@ -27,7 +27,7 @@ namespace hol.visitor.Areas.Admin.Controllers
 
         public IActionResult DeleteComment(int id)
         {
-            var values = _commentService.TGetByID(id);
+            var values = _commentService.TGetById(id);
             _commentService.TDelete(values);
             return RedirectToAction("Index");
         }

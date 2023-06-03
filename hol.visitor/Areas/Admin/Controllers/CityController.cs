@@ -41,14 +41,14 @@ namespace hol.visitor.Areas.Admin.Controllers
 
         public IActionResult GetById(int DestinationID)
         {
-            var values = _destinationService.TGetByID(DestinationID);
+            var values = _destinationService.TGetById(DestinationID);
             var jsonValues = JsonConvert.SerializeObject(values);
             return Json(jsonValues);
         }
 
         public IActionResult DeleteCity(int id)
         {
-            var values = _destinationService.TGetByID(id);
+            var values = _destinationService.TGetById(id);
             _destinationService.TDelete(values);
             return NoContent();
         }

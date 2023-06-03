@@ -29,6 +29,16 @@ namespace BusinessLayer.Concrete
             return _destinationDAL.GetByID(id);
         }
 
+        public Destination TGetDestinationWithGuide(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Destination> TGetLast4Destinations()
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Destination> TGetList()
         {
             return _destinationDAL.GetList();
