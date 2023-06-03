@@ -81,6 +81,13 @@ namespace hol.visitor
                     pattern: "{area:exists}/{Controller=Home}/{action=Index}/{id?}");
             });
 
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "areas",
+                    pattern: "{area:exists}/{Controller=Home}/{action=Index}/{id?}");
+            });
+
         }
     }
 }
