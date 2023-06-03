@@ -33,6 +33,7 @@
     <None Remove="Views\Shared\Components\_ProfileInformation\" />
     <None Remove="Views\Shared\Components\_GuideList\" />
     <None Remove="Views\Shared\Components\_PlatformSetting\" />
+    <None Remove="Areas\Admin\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
@@ -92,6 +93,7 @@
     <Folder Include="Views\Shared\Components\_GuideList\" />
     <Folder Include="Views\Shared\Components\_PlatformSetting\" />
     <Folder Include="wwwroot\sneat-1.0.0\" />
+    <Folder Include="Areas\Admin\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Traversal-Liberty\" />
