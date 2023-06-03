@@ -1,7 +1,12 @@
-﻿using System;
-using BusinessLayer.Abstract;
+﻿using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
+using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
@@ -16,12 +21,12 @@ namespace BusinessLayer.Concrete
 
         public void TAdd(Destination t)
         {
-            throw new NotImplementedException();
+            _destinationDAL.Insert(t);
         }
 
         public void TDelete(Destination t)
         {
-            throw new NotImplementedException();
+            _destinationDAL.Delete(t);
         }
 
         public Destination TGetById(int id)
@@ -31,12 +36,12 @@ namespace BusinessLayer.Concrete
 
         public Destination TGetDestinationWithGuide(int id)
         {
-            throw new NotImplementedException();
+            return _destinationDAL.GetDestinationWithGuide(id);
         }
 
         public List<Destination> TGetLast4Destinations()
         {
-            throw new NotImplementedException();
+            return _destinationDAL.GetLast4Destinations();
         }
 
         public List<Destination> TGetList()
@@ -46,7 +51,7 @@ namespace BusinessLayer.Concrete
 
         public void TUpdate(Destination t)
         {
-            throw new NotImplementedException();
+            _destinationDAL.Update(t);
         }
     }
 }

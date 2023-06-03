@@ -80,7 +80,6 @@ namespace hol.visitor
                     name: "areas",
                     pattern: "{area:exists}/{Controller=Home}/{action=Index}/{id?}");
             });
-
         }
     }
 }
