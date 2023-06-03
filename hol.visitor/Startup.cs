@@ -1,5 +1,9 @@
 ﻿using System;
+using BusinessLayer.Abstract;
+using BusinessLayer.Concrete;
+using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.AspNetCore;
 using hol.visitor.Models;
@@ -26,9 +30,14 @@ namespace hol.visitor
             services.AddDbContext<Context>();
             services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
 
-            services.AddHttpClient();
+            services.AddScoped<ICommentService, CommentManager>();
+            services.AddScoped<ICommentDAL, EfCommentDAL>();
+            services.AddScoped<IDestinationService, DestinationManager>();
+            services.AddScoped<IDestinationDAL, EfDestinationDAL>();
+            services.AddScoped<IAppUserService, AppUserManager>();
+            services.AddScoped<IAppUserDAL, EfAppUserDAL>();
 
-            services.AddControllersWithViews().AddFluentValidation();
+            services.AddControllersWithViews();
 
 
 
