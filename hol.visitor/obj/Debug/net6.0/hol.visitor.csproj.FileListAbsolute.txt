@@ -1,0 +1,9 @@
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/obj/Debug/net6.0/hol.visitor.csproj.AssemblyReference.cache
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/obj/Debug/net6.0/hol.visitor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/obj/Debug/net6.0/hol.visitor.AssemblyInfoInputs.cache
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/obj/Debug/net6.0/hol.visitor.AssemblyInfo.cs
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/obj/Debug/net6.0/hol.visitor.csproj.CoreCompileInputs.cache
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/obj/Debug/net6.0/hol.visitor.MvcApplicationPartsAssemblyInfo.cs
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/obj/Debug/net6.0/hol.visitor.MvcApplicationPartsAssemblyInfo.cache
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/obj/Debug/net6.0/hol.visitor.RazorAssemblyInfo.cache
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/obj/Debug/net6.0/hol.visitor.RazorAssemblyInfo.cs
