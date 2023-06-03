@@ -5,10 +5,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TraversalCoreProje.CQRS.Commands.GuideCommands;
-using TraversalCoreProje.CQRS.Queries.GuideQueries;
+using hol.visitor.CQRS.Commands.GuideCommands;
+using hol.visitor.CQRS.Queries.GuideQueries;
 
-namespace TraversalCoreProje.Areas.Admin.Controllers
+namespace hol.visitor.Areas.Admin.Controllers
 {
     [AllowAnonymous]
     [Area("Admin")]

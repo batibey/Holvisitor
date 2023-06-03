@@ -4,11 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TraversalCoreProje.CQRS.Commands.DestinationCommands;
-using TraversalCoreProje.CQRS.Handlers.DestinationHandlers;
-using TraversalCoreProje.CQRS.Queries.DestinationQueries;
+using hol.visitor.CQRS.Commands.DestinationCommands;
+using hol.visitor.CQRS.Handlers.DestinationHandlers;
+using hol.visitor.CQRS.Queries.DestinationQueries;
 
-namespace TraversalCoreProje.Areas.Admin.Controllers
+namespace hol.visitor.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [AllowAnonymous]

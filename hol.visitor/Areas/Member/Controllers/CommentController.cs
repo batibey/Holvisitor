@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TraversalCoreProje.Areas.Member.Controllers
+namespace hol.visitor.Areas.Member.Controllers
 {
     [Area("Member")]
     [AllowAnonymous]

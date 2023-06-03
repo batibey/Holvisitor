@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TraversalCoreProje.Areas.Admin.Models
+namespace hol.visitor.Areas.Admin.Models
 {
     public class VisitorViewModel
     {
