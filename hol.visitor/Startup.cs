@@ -1,6 +1,7 @@
 ﻿using System;
 using BusinessLayer.Abstract;
 using BusinessLayer.Concrete;
+using BusinessLayer.Container;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
@@ -30,16 +31,9 @@ namespace hol.visitor
             services.AddDbContext<Context>();
             services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
 
-            services.AddScoped<ICommentService, CommentManager>();
-            services.AddScoped<ICommentDAL, EfCommentDAL>();
-            services.AddScoped<IDestinationService, DestinationManager>();
-            services.AddScoped<IDestinationDAL, EfDestinationDAL>();
-            services.AddScoped<IAppUserService, AppUserManager>();
-            services.AddScoped<IAppUserDAL, EfAppUserDAL>();
+            services.ContainerDependencies();
 
             services.AddControllersWithViews();
-
-
 
             services.AddMvc(config =>
             {

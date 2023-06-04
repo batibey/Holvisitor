@@ -15,6 +15,7 @@
     <None Remove="Concrete\" />
     <None Remove="ValidationRules\" />
     <None Remove="Abstract\AbstractUow\" />
+    <None Remove="Container\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
@@ -39,5 +40,6 @@
     <Folder Include="Concrete\" />
     <Folder Include="ValidationRules\" />
     <Folder Include="Abstract\AbstractUow\" />
+    <Folder Include="Container\" />
   </ItemGroup>
 </Project>
