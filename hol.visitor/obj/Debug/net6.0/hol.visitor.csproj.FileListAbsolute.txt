@@ -71,6 +71,13 @@
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/NuGet.ProjectModel.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/NuGet.Protocol.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/NuGet.Versioning.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Serilog.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Serilog.Extensions.Logging.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Serilog.Extensions.Logging.File.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Serilog.Formatting.Compact.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Serilog.Sinks.Async.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Serilog.Sinks.File.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Serilog.Sinks.RollingFile.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/System.Composition.AttributedModel.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/System.Composition.Convention.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/System.Composition.Hosting.dll

@@ -50,14 +50,15 @@ namespace hol.visitor
                 config.Filters.Add(new AuthorizeFilter(policy));
             });
 
-            
-
             services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
+            var path = Directory.GetCurrentDirectory();
+            loggerFactory.AddFile($"{path}\\Logs\\Log1.txt");
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

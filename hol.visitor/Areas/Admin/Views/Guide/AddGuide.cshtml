@@ -9,32 +9,32 @@
 <h1>Yeni Rehber Oluşturma Sayfası</h1>
 <form method="post">
     <div class="form-group">
-        @Html.Label("Ad Soyad")
+        @Html.Label("Name Surname")
         <input type="text" asp-for="Name" class="form-control" />
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Rehber Fotoğraf")
+        @Html.Label("Image")
         <input type="text" asp-for="Image" class="form-control" />
         <span asp-validation-for="Image" class="text-danger"></span>
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Instagram Url")
+        @Html.Label("Instagram")
         <input type="text" asp-for="InstagramUrl" class="form-control" />
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Twitter Url")
+        @Html.Label("Twitter")
         <input type="text" asp-for="TwitterUrl" class="form-control" />
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Açıklama")
+        @Html.Label("Description")
         <textarea cols="30" rows="5" class="form-control" asp-for="Description"></textarea>
         <span asp-validation-for="Description" class="text-danger"></span>
     </div>
     <br />
-    <button class="btn btn-outline-primary">Oluştur</button>
+    <button class="btn btn-outline-primary">Create</button>
 </form>
