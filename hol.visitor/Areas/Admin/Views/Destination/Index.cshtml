@@ -5,16 +5,16 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Tur Rotaları</h1>
+<h1>Tour Route</h1>
 <table class="table table-bordered">
     <tr>
         <th>#</th>
-        <th>Şehir</th>
-        <th>Fiyat</th>
-        <th>Kapasite</th>
-        <th>Sitede Gör</th>
-        <th>Sil</th>
-        <th>Güncelle</th>
+        <th>City</th>
+        <th>Price</th>
+        <th>Capacity</th>
+        <th>View Web</th>
+        <th>Delete</th>
+        <th>Update</th>
     </tr>
     @foreach (var item in Model)
     {
@@ -29,5 +29,5 @@
         </tr>
     }
 </table>
-<a href="/Admin/Destination/AddDestination" class="btn btn-outline-primary">Yeni Tur Rotası</a>
+<a href="/Admin/Destination/AddDestination" class="btn btn-outline-primary">New Tour Route</a>
 

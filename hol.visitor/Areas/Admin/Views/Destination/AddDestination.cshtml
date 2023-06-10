@@ -4,52 +4,52 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Yeni Rota Oluşturma Sayfası</h1>
+<h1>New Route</h1>
 <form method="post">
     <div class="form-group">
-        @Html.Label("Şehir")
+        @Html.Label("City")
         <input type="text" asp-for="City" class="form-control" />
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Gün Gece")
+        @Html.Label("Day Night")
         <input type="text" asp-for="DayNight" class="form-control" />
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Fiyat")
+        @Html.Label("Price")
         <input type="text" asp-for="Price" class="form-control" />
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Ana Görsel")
+        @Html.Label("Main Image")
         <input type="text" asp-for="Image" class="form-control" />
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Kapasite")
+        @Html.Label("Capacity")
         <input type="text" asp-for="Capacity" class="form-control" />
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Kapak Görseli")
+        @Html.Label("Poster Image")
         <input type="text" asp-for="CoverImage" class="form-control" />
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Görsel 2")
+        @Html.Label("Image 2")
         <input type="text" asp-for="Image2" class="form-control" />
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Detay 1")
+        @Html.Label("Detail 1")
         <textarea cols="30" rows="5" class="form-control" asp-for="Details1"></textarea>
     </div>
     <br />
     <div class="form-group">
-        @Html.Label("Detay 2")
+        @Html.Label("Detail 2")
         <textarea cols="30" rows="5" class="form-control" asp-for="Details2"></textarea>
     </div>
     <br />
-    <button class="btn btn-outline-primary">Oluştur</button>
+    <button class="btn btn-outline-primary">Create</button>
 </form>
