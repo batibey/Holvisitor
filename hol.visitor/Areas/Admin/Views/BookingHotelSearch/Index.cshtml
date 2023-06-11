@@ -7,18 +7,18 @@
     double score;
 }
 
-<h1>Booking Otel Rezervasyon Sayfası</h1>
+<h1>Reservation Page</h1>
 
-<h3>Arama Yapılan Şehir: Paris/Fransa</h3>
+<h3>Searching Destination: Paris/Fransa</h3>
 
 
 <table class="table table-striped">
     <tr>
         <th>#</th>
-        <th>Otel Adı</th>
-        <th>Otel Puanı</th>
-        <th>Otel Değerlendirmesi</th>
-        <th>Detaylar</th>
+        <th>Hotel Name</th>
+        <th>Hotel Score</th>
+        <th>Hotel Rating</th>
+        <th>Details</th>
     </tr>
 
     @foreach (var item in Model)
@@ -32,18 +32,18 @@
     @{
         if (item.review_score_word == "Very good")
         {
-            <td>Çok İyi</td>
+            <td>Very Good</td>
         }
         if (item.review_score_word == "Good")
         {
-            <td>İyi</td>
+            <td>Good</td>
         } 
         if (item.review_score_word == "Fabulous")
         {
-            <td>Harika</td>
+            <td>Great !</td>
         }
     }
-    <td><a href="#" class="btn btn-outline-dark">Detaylar</a></td>
+    <td><a href="#" class="btn btn-outline-dark">Detail</a></td>
 </tr>
     }
 </table>

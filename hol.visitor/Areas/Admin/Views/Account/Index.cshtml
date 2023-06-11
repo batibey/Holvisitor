@@ -4,17 +4,17 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h3>Unit Of Work Personel Prim Tranferi</h3>
+<h3>Unit Of Work Personel Prim Tranfers</h3>
 
 <form method="post">
-    <label>Gönderen</label>
+    <label>Sender</label>
     <input type="text" asp-for="SenderID" class="form-control" />
     <br />
-    <label>Alıcı</label>
+    <label>Receiver</label>
     <input type="text" asp-for="ReceiverID" class="form-control" />
     <br />
-    <label>Miktar</label>
+    <label>Amount</label>
     <input type="text" asp-for="Amount" class="form-control" />
     <br />
-    <button class="btn btn-outline-warning">Hesaba Aktar</button>
+    <button class="btn btn-outline-warning">Transfer</button>
 </form>
