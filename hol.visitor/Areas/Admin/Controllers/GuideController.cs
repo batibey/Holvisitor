@@ -34,7 +34,7 @@ namespace hol.visitor.Areas.Admin.Controllers
             return View();
         }
 
-        /*[Route("AddGuide")]
+        [Route("AddGuide")]
         [HttpPost]
         public IActionResult AddGuide(Guide guide)
         {
@@ -53,7 +53,7 @@ namespace hol.visitor.Areas.Admin.Controllers
                 }
                 return View();
             }
-        }*/
+        }
         [Route("EditGuide")]
         [HttpGet]
         public IActionResult EditGuide(int id)
