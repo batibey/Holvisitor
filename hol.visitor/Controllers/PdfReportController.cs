@@ -48,16 +48,16 @@ namespace hol.visitor.Controllers
             pdfPTable.AddCell("Misafir Soyadı");
             pdfPTable.AddCell("Misafir TC");
 
-            pdfPTable.AddCell("Eylül");
-            pdfPTable.AddCell("Yücedağ");
+            pdfPTable.AddCell("Mustafa");
+            pdfPTable.AddCell("Batı");
             pdfPTable.AddCell("11111111110");
 
-            pdfPTable.AddCell("Kemal");
-            pdfPTable.AddCell("Yıldırım");
+            pdfPTable.AddCell("Halil");
+            pdfPTable.AddCell("Batı");
             pdfPTable.AddCell("22222222222");
 
-            pdfPTable.AddCell("Mehmet");
-            pdfPTable.AddCell("Yücedağ");
+            pdfPTable.AddCell("Aliye");
+            pdfPTable.AddCell("Batı");
             pdfPTable.AddCell("44444444445");
 
             document.Add(pdfPTable);
