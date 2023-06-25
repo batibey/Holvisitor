@@ -49,15 +49,15 @@ namespace hol.visitor.Controllers
             pdfPTable.AddCell("Misafir TC");
 
             pdfPTable.AddCell("Mustafa");
-            pdfPTable.AddCell("Batı");
+            pdfPTable.AddCell("Bati");
             pdfPTable.AddCell("11111111110");
 
             pdfPTable.AddCell("Halil");
-            pdfPTable.AddCell("Batı");
+            pdfPTable.AddCell("Bati");
             pdfPTable.AddCell("22222222222");
 
             pdfPTable.AddCell("Aliye");
-            pdfPTable.AddCell("Batı");
+            pdfPTable.AddCell("Bati");
             pdfPTable.AddCell("44444444445");
 
             document.Add(pdfPTable);
