@@ -44,9 +44,9 @@ namespace hol.visitor.Controllers
 
             PdfPTable pdfPTable = new PdfPTable(3);
 
-            pdfPTable.AddCell("Misafir Adı");
-            pdfPTable.AddCell("Misafir Soyadı");
-            pdfPTable.AddCell("Misafir TC");
+            pdfPTable.AddCell("Guest Name");
+            pdfPTable.AddCell("Guest Surname");
+            pdfPTable.AddCell("Number");
 
             pdfPTable.AddCell("Mustafa");
             pdfPTable.AddCell("Bati");
