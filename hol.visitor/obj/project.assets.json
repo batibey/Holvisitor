@@ -4496,6 +4496,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "DataAccessLayer": "1.0.0",
+          "EPPlus": "6.0.7",
           "EntityLayer": "1.0.0",
           "FluentValidation": "10.3.6",
           "FluentValidation.AspNetCore": "10.3.6",
