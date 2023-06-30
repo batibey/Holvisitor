@@ -26,7 +26,7 @@ namespace hol.visitor.Controllers
 
             document.Open();
 
-            Paragraph paragraph = new Paragraph("Traversal Rezervasyon Pdf Raporu");
+            Paragraph paragraph = new Paragraph("HolVisitor Reservation PDF Reports");
 
             document.Add(paragraph);
             document.Close();
@@ -46,7 +46,7 @@ namespace hol.visitor.Controllers
 
             pdfPTable.AddCell("Guest Name");
             pdfPTable.AddCell("Guest Surname");
-            pdfPTable.AddCell("Number");
+            pdfPTable.AddCell("Identification Number");
 
             pdfPTable.AddCell("Mustafa");
             pdfPTable.AddCell("Bati");
