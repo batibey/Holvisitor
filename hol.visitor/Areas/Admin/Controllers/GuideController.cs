@@ -69,7 +69,7 @@ namespace hol.visitor.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
 
-        /*[Route("ChangeToTrue/{id}")]
+        [Route("ChangeToTrue/{id}")]
 
         public IActionResult ChangeToTrue(int id)
         {
@@ -82,6 +82,6 @@ namespace hol.visitor.Areas.Admin.Controllers
         {
             _guideService.TChangeToFalseByGuide(id);
             return RedirectToAction("Index", "Guide", new { area = "Admin" });
-        }*/
+        }
     }
 }

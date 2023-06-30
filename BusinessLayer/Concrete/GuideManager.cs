@@ -19,6 +19,16 @@ namespace BusinessLayer.Concrete
             _guideDAL.Insert(t);
         }
 
+        public void TChangeToFalseByGuide(int id)
+        {
+            _guideDAL.ChangeToFalseByGuide(id);
+        }
+
+        public void TChangeToTrueByGuide(int id)
+        {
+            _guideDAL.ChangeToTrueByGuide(id);
+        }
+
         public void TDelete(Guide t)
         {
             _guideDAL.Delete(t);
