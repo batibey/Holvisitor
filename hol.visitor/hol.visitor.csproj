@@ -34,6 +34,7 @@
     <None Remove="Views\Shared\Components\_GuideList\" />
     <None Remove="Views\Shared\Components\_PlatformSetting\" />
     <None Remove="Areas\Admin\" />
+    <None Remove="Areas\Admin\Views\Mail\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
@@ -55,6 +56,7 @@
     <PackageReference Include="EPPlus" Version="6.0.7" />
     <PackageReference Include="ClosedXML" Version="0.101.0" />
     <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.9.2" />
+    <PackageReference Include="MailKit" Version="3.4.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
@@ -99,6 +101,7 @@
     <Folder Include="wwwroot\sneat-1.0.0\" />
     <Folder Include="Areas\Admin\" />
     <Folder Include="wwwroot\pdfreports\" />
+    <Folder Include="Areas\Admin\Views\Mail\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Traversal-Liberty\" />

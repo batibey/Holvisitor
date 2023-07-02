@@ -18,6 +18,7 @@
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Humanizer.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Irony.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/iTextSharp.LGPLv2.Core.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MailKit.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MessagePack.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MessagePack.Annotations.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -70,6 +71,7 @@
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MimeKit.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/NuGet.Common.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/NuGet.Configuration.dll
