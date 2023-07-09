@@ -59,7 +59,6 @@
             url: "/Admin/City/CityList/",
             success: function (func) {
                 let w = jQuery.parseJSON(func);
-                console.log(w);
                 let tablehtml = "<table class=table table-bordered> <tr><th> City </th> <th> Day-Night </th> <th> Price </th> </tr>";
                 $.each(w, (index, value) => {
                     tablehtml += `<tr><td>${value.City}</td> <td>${value.DayNight}</td> <td> ${value.Price} ₺ </td> </tr>`
