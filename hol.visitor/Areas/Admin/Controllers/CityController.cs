@@ -55,27 +55,5 @@ namespace hol.visitor.Areas.Admin.Controllers
             var v = JsonConvert.SerializeObject(destination);
             return Json(v);
         }
-
-        //public static List<CityClass> cities = new()
-        //{
-        //    new CityClass
-        //    {
-        //        CityID=1,
-        //        CityName="Üsküp",
-        //        CityCountry="Makedonya"
-        //    },
-        //    new CityClass
-        //    {
-        //        CityID=2,
-        //        CityName="Roma",
-        //        CityCountry="İtalya"
-        //    },
-        //    new CityClass
-        //    {
-        //        CityID=3,
-        //        CityName="Londra",
-        //        CityCountry="İngiltere"
-        //    }
-        //};
     }
 }

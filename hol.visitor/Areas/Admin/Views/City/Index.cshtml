@@ -18,7 +18,7 @@
 <br />
 
 <div id="citylist">
-    Buraya sehir listesi gelecek
+    
 </div>
 <br />
 <div>
@@ -61,7 +61,7 @@
                 let w = jQuery.parseJSON(func);
                 let tablehtml = "<table class=table table-bordered> <tr><th> City </th> <th> Day-Night </th> <th> Price </th> </tr>";
                 $.each(w, (index, value) => {
-                    tablehtml += `<tr><td>${value.City}</td> <td>${value.DayNight}</td> <td> ${value.Price} ₺ </td> </tr>`
+                    tablehtml += `<tr><td>${value.City}</td> <td>${value.DayNight}</td> <td> ${value.Price} € </td> </tr>`
                 });
                 tablehtml += "</table>";
                 $("#citylist").html(tablehtml);
