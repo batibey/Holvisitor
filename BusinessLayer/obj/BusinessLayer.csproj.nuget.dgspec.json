@@ -29,6 +29,9 @@
               "/Users/mustafabati/Projects/hol.visitor/DataAccessLayer/DataAccessLayer.csproj": {
                 "projectPath": "/Users/mustafabati/Projects/hol.visitor/DataAccessLayer/DataAccessLayer.csproj"
               },
+              "/Users/mustafabati/Projects/hol.visitor/DTOLayer/DTOLayer.csproj": {
+                "projectPath": "/Users/mustafabati/Projects/hol.visitor/DTOLayer/DTOLayer.csproj"
+              },
               "/Users/mustafabati/Projects/hol.visitor/EntityLayer/EntityLayer.csproj": {
                 "projectPath": "/Users/mustafabati/Projects/hol.visitor/EntityLayer/EntityLayer.csproj"
               }
@@ -165,6 +168,59 @@
               "version": "[6.0.12, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mustafabati/Projects/hol.visitor/DTOLayer/DTOLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mustafabati/Projects/hol.visitor/DTOLayer/DTOLayer.csproj",
+        "projectName": "DTOLayer",
+        "projectPath": "/Users/mustafabati/Projects/hol.visitor/DTOLayer/DTOLayer.csproj",
+        "packagesPath": "/Users/mustafabati/.nuget/packages/",
+        "outputPath": "/Users/mustafabati/Projects/hol.visitor/DTOLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mustafabati/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",

@@ -1491,6 +1491,16 @@
           "bin/placeholder/DataAccessLayer.dll": {}
         }
       },
+      "DTOLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DTOLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTOLayer.dll": {}
+        }
+      },
       "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3485,6 +3495,11 @@
       "path": "../DataAccessLayer/DataAccessLayer.csproj",
       "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
     },
+    "DTOLayer/1.0.0": {
+      "type": "project",
+      "path": "../DTOLayer/DTOLayer.csproj",
+      "msbuildProject": "../DTOLayer/DTOLayer.csproj"
+    },
     "EntityLayer/1.0.0": {
       "type": "project",
       "path": "../EntityLayer/EntityLayer.csproj",
@@ -3493,6 +3508,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DTOLayer >= 1.0.0",
       "DataAccessLayer >= 1.0.0",
       "EPPlus >= 6.0.7",
       "EntityLayer >= 1.0.0",
@@ -3531,6 +3547,9 @@
           "projectReferences": {
             "/Users/mustafabati/Projects/hol.visitor/DataAccessLayer/DataAccessLayer.csproj": {
               "projectPath": "/Users/mustafabati/Projects/hol.visitor/DataAccessLayer/DataAccessLayer.csproj"
+            },
+            "/Users/mustafabati/Projects/hol.visitor/DTOLayer/DTOLayer.csproj": {
+              "projectPath": "/Users/mustafabati/Projects/hol.visitor/DTOLayer/DTOLayer.csproj"
             },
             "/Users/mustafabati/Projects/hol.visitor/EntityLayer/EntityLayer.csproj": {
               "projectPath": "/Users/mustafabati/Projects/hol.visitor/EntityLayer/EntityLayer.csproj"

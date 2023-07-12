@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DTOs\" />
+    <None Remove="DTOs\CityDTOs\" />
+    <None Remove="DTOs\AppUserDTOs\" />
+    <None Remove="DTOs\ContactDTOs\" />
+    <None Remove="DTOs\MailDTOs\" />
+    <None Remove="DTOs\DestinationDTOs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+    <Folder Include="DTOs\CityDTOs\" />
+    <Folder Include="DTOs\AppUserDTOs\" />
+    <Folder Include="DTOs\ContactDTOs\" />
+    <Folder Include="DTOs\MailDTOs\" />
+    <Folder Include="DTOs\DestinationDTOs\" />
+  </ItemGroup>
+</Project>
