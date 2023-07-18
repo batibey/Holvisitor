@@ -3,10 +3,6 @@ using DTOLayer.DTOs.AnnouncementDTOs;
 using DTOLayer.DTOs.AppUserDTOs;
 using DTOLayer.DTOs.ContactDTOs;
 using EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace hol.visitor.Mapping.AutoMapperProfile
 {
@@ -17,8 +13,8 @@ namespace hol.visitor.Mapping.AutoMapperProfile
             CreateMap<AnnouncementAddDto, Announcement>();
             CreateMap<Announcement, AnnouncementAddDto>();
 
-            //CreateMap<AppUserRegisterDTOs, AppUser>();
-            //CreateMap<AppUser, AppUserRegisterDTOs>();
+            CreateMap<AppUserRegisterDTO, AppUser>();
+            CreateMap<AppUser, AppUserRegisterDTO>();
 
             //CreateMap<AppUserLoginDTOs, AppUser>();
             //CreateMap<AppUser, AppUserLoginDTOs>();
