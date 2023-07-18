@@ -6,6 +6,8 @@
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/hol.visitor.runtimeconfig.json
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/hol.visitor.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/hol.visitor.pdb
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/AutoMapper.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/ClosedXML.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/DocumentFormat.OpenXml.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/EPPlus.dll

@@ -16,6 +16,7 @@
     <None Remove="ValidationRules\" />
     <None Remove="Abstract\AbstractUow\" />
     <None Remove="Container\" />
+    <None Remove="ValidationRules\AnnouncementValidationRules\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
@@ -43,5 +44,6 @@
     <Folder Include="ValidationRules\" />
     <Folder Include="Abstract\AbstractUow\" />
     <Folder Include="Container\" />
+    <Folder Include="ValidationRules\AnnouncementValidationRules\" />
   </ItemGroup>
 </Project>

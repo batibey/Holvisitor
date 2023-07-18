@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "f91JmZq/Y0onMLw3xJ9wnZXwN9EhlSH2J2l10P9/CwmXqXH/vMR53dpbvcVbDH2LQwo299uu25mJubJSTBS4cA==",
+  "dgSpecHash": "xozELGOeO5O+Cgd3HSf9SJeWNLgcUyYvr2F3SPP7xIfbACVnAVFyIeiKd1WmUgaxeCylhNZ5xVgh5BdCIYDO1g==",
   "success": true,
   "projectFilePath": "/Users/mustafabati/Projects/hol.visitor/hol.visitor/hol.visitor.csproj",
   "expectedPackageFiles": [
+    "/Users/mustafabati/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/mustafabati/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/mustafabati/.nuget/packages/closedxml/0.101.0/closedxml.0.101.0.nupkg.sha512",
     "/Users/mustafabati/.nuget/packages/documentformat.openxml/2.16.0/documentformat.openxml.2.16.0.nupkg.sha512",
     "/Users/mustafabati/.nuget/packages/epplus/6.0.7/epplus.6.0.7.nupkg.sha512",
@@ -56,7 +58,7 @@
     "/Users/mustafabati/.nuget/packages/microsoft.codeanalysis.visualbasic.workspaces/4.0.0/microsoft.codeanalysis.visualbasic.workspaces.4.0.0.nupkg.sha512",
     "/Users/mustafabati/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.0.0/microsoft.codeanalysis.workspaces.common.4.0.0.nupkg.sha512",
     "/Users/mustafabati/.nuget/packages/microsoft.codeanalysis.workspaces.msbuild/4.0.0/microsoft.codeanalysis.workspaces.msbuild.4.0.0.nupkg.sha512",
-    "/Users/mustafabati/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/mustafabati/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/mustafabati/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/mustafabati/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "/Users/mustafabati/.nuget/packages/microsoft.diasymreader/1.3.0/microsoft.diasymreader.1.3.0.nupkg.sha512",
