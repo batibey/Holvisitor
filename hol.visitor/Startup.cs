@@ -39,6 +39,8 @@ namespace hol.visitor
 
             services.ContainerDependencies();
 
+            services.AddAutoMapper(typeof(Startup));
+
             services.AddControllersWithViews();
 
             services.AddMvc(config =>
