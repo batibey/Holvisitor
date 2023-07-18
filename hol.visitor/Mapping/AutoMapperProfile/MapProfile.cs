@@ -16,8 +16,8 @@ namespace hol.visitor.Mapping.AutoMapperProfile
             CreateMap<AppUserRegisterDTO, AppUser>();
             CreateMap<AppUser, AppUserRegisterDTO>();
 
-            //CreateMap<AppUserLoginDTOs, AppUser>();
-            //CreateMap<AppUser, AppUserLoginDTOs>();
+            CreateMap<AppUserLoginDTO, AppUser>();
+            CreateMap<AppUser, AppUserLoginDTO>();
 
             CreateMap<AnnouncementListDto, Announcement>();
             CreateMap<Announcement, AnnouncementListDto>();
