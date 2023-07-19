@@ -5,7 +5,9 @@ using BusinessLayer.Container;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using DTOLayer.DTOs.AnnouncementDTOs;
 using EntityLayer.Concrete;
+using FluentValidation;
 using FluentValidation.AspNetCore;
 using hol.visitor.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -40,6 +42,7 @@ namespace hol.visitor
             services.ContainerDependencies();
 
             services.AddAutoMapper(typeof(Startup));
+            //services.AddTransient<IValidator<AnnouncementAddDto>, AnnouncementValidator>();
 
             services.AddControllersWithViews();
 
