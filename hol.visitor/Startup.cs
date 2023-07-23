@@ -43,7 +43,7 @@ namespace hol.visitor
 
             services.AddAutoMapper(typeof(Startup));
             //services.AddTransient<IValidator<AnnouncementAddDto>, AnnouncementValidator>();
-
+            services.CustomerValidator();
             services.AddControllersWithViews();
 
             services.AddMvc(config =>
