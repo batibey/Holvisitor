@@ -1,12 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Threading.Tasks;
 using hol.visitor.Areas.Admin.Models;
+using Newtonsoft.Json;
 
 namespace hol.visitor.Areas.Admin.Controllers
 {
@@ -21,20 +16,18 @@ namespace hol.visitor.Areas.Admin.Controllers
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Get,
-                RequestUri = new Uri("https://imdb-top-100-movies.p.rapidapi.com/"),
+                RequestUri = new Uri("https://imdb-top-100-movies1.p.rapidapi.com/"),
                 Headers =
     {
-        { "X-RapidAPI-Key", "cb5ee15da1mshb46d59d679af3abp1fe84cjsn167590fdc0cc" },
-        { "X-RapidAPI-Host", "imdb-top-100-movies.p.rapidapi.com" },
+        { "X-RapidAPI-Key", "9c12b0dd65mshe7c68d5111f5868p145776jsn966eb301c2d4" },
+        { "X-RapidAPI-Host", "imdb-top-100-movies1.p.rapidapi.com" },
     },
             };
-            using (var response = await client.SendAsync(request))
-            {
-                response.EnsureSuccessStatusCode();
-                var body = await response.Content.ReadAsStringAsync();
-                apiMovies = JsonConvert.DeserializeObject<List<ApiMovieViewModel>>(body);
-                return View(apiMovies);
-            }
+            using var response = await client.SendAsync(request);
+            response.EnsureSuccessStatusCode();
+            var body = await response.Content.ReadAsStringAsync();
+            apiMovies = JsonConvert.DeserializeObject<List<ApiMovieViewModel>>(body);
+            return View(apiMovies);
         }
     }
 }
