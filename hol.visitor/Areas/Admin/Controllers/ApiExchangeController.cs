@@ -24,17 +24,15 @@ namespace hol.visitor.Areas.Admin.Controllers
                 RequestUri = new Uri("https://booking-com.p.rapidapi.com/v1/metadata/exchange-rates?currency=TRY&locale=en-gb"),
                 Headers =
     {
-        { "X-RapidAPI-Key", "cb5ee15da1mshb46d59d679af3abp1fe84cjsn167590fdc0cc" },
+        { "X-RapidAPI-Key", "9c12b0dd65mshe7c68d5111f5868p145776jsn966eb301c2d4" },
         { "X-RapidAPI-Host", "booking-com.p.rapidapi.com" },
     },
             };
-            using (var response = await client.SendAsync(request))
-            {
-                response.EnsureSuccessStatusCode();
-                var body = await response.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<BookingExchangeViewModel2>(body);
-                return View(values.exchange_rates);
-            }
+            using var response = await client.SendAsync(request);
+            response.EnsureSuccessStatusCode();
+            var body = await response.Content.ReadAsStringAsync();
+            var values = JsonConvert.DeserializeObject<BookingExchangeViewModel2>(body);
+            return View(values?.exchange_rates);
         }
     }
 }
