@@ -16,7 +16,6 @@ namespace hol.visitor.Areas.Admin.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
-            List<BookingExchangeViewModel2> bookingExchangeViewModels = new List<BookingExchangeViewModel2>();
             var client = new HttpClient();
             var request = new HttpRequestMessage
             {
