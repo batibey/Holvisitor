@@ -51,13 +51,11 @@ namespace hol.visitor.Areas.Admin.Controllers
         { "X-RapidAPI-Host", "booking-com.p.rapidapi.com" },
     },
             };
-            using (var response = await client.SendAsync(request))
-            {
-                response.EnsureSuccessStatusCode();
-                var body = await response.Content.ReadAsStringAsync();
+            using var response = await client.SendAsync(request);
+            response.EnsureSuccessStatusCode();
+            var body = await response.Content.ReadAsStringAsync();
 
-                return View();
-            }
+            return View();
         }
     }
 }
