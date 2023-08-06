@@ -28,5 +28,10 @@ namespace hol.visitor.CQRS.Handlers.GuideHandlers
             await _context.SaveChangesAsync();
             return Unit.Value;
         }
+
+        Task IRequestHandler<CreateGuideCommand>.Handle(CreateGuideCommand request, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
