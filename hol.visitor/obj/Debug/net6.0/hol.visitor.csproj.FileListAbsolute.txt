@@ -21,6 +21,8 @@
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Irony.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/iTextSharp.LGPLv2.Core.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MailKit.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MediatR.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MediatR.Contracts.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MessagePack.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MessagePack.Annotations.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll

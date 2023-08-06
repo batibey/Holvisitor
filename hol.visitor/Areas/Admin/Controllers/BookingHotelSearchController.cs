@@ -31,7 +31,7 @@ namespace hol.visitor.Areas.Admin.Controllers
             return View(values?.result);
         }
 
-[HttpGet]
+        [HttpGet]
         public IActionResult GetCityDestID()
         {
             return View();
