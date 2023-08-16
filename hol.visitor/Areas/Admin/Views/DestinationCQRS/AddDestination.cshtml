@@ -4,20 +4,20 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>Yeni Tur Rotası Ekleme Sayfası (CQRS)</h2>
+<h2>Add New Tour Route</h2>
 
 <form method="post">
-    <label>Şehir Adı</label>
+    <label>City</label>
     <input type="text" asp-for="City" class="form-control" />
     <br />
-    <label>Gün-Gece Sayısı</label>
+    <label>Day-Night</label>
     <input type="text" asp-for="DayNight" class="form-control" />
     <br />
-    <label>Fiyat</label>
+    <label>Price</label>
     <input type="text" asp-for="Price" class="form-control" />
     <br />
-    <label>Kapasite</label>
+    <label>Capacity</label>
     <input type="text" asp-for="Capacity" class="form-control" />
     <br />
-    <button class="btn btn-outline-primary">Tur Rotasını Kaydet</button>
+    <button class="btn btn-outline-primary">Save</button>
 </form>
