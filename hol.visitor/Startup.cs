@@ -1,19 +1,10 @@
-﻿using System;
-using BusinessLayer.Abstract;
-using BusinessLayer.Concrete;
-using BusinessLayer.Container;
-using DataAccessLayer.Abstract;
+﻿using BusinessLayer.Container;
 using DataAccessLayer.Concrete;
-using DataAccessLayer.EntityFramework;
-using DTOLayer.DTOs.AnnouncementDTOs;
 using EntityLayer.Concrete;
-using FluentValidation;
-using FluentValidation.AspNetCore;
 using hol.visitor.Models;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
-using Microsoft.AspNetCore.Mvc.Razor;
 
 namespace hol.visitor
 {
@@ -28,6 +19,8 @@ namespace hol.visitor
 
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddMediatR(typeof(Startup));
 
             services.AddLogging(x =>
             {

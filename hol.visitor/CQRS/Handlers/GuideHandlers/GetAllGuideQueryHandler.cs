@@ -1,11 +1,6 @@
 ﻿using DataAccessLayer.Concrete;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 using hol.visitor.CQRS.Queries.GuideQueries;
 using hol.visitor.CQRS.Results.GuideResults;
 

@@ -23,6 +23,7 @@
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MailKit.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MediatR.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MediatR.Contracts.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MessagePack.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/MessagePack.Annotations.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -56,6 +57,7 @@
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
 /Users/mustafabati/Projects/hol.visitor/hol.visitor/bin/Debug/net6.0/Microsoft.Identity.Client.dll
